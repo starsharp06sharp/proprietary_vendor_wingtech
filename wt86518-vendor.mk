@@ -18,5 +18,5 @@ PRODUCT_PACKAGES += \
     libTimeService \
     libtime_genoff
 
-$(call inherit-product, vendor/lenovo/msm8916/copyfiles.mk)
+$(call inherit-product, vendor/wingtech/wt86518/copyfiles.mk)
 
