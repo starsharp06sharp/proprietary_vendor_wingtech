@@ -15,7 +15,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter msm8916,$(TARGET_DEVICE)),)
+ifeq ($(TARGET_DEVICE), wt86518)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
